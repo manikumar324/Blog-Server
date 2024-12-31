@@ -2,7 +2,7 @@ const { request, response } = require('express');
 const grid = require('gridfs-stream');
 const mongoose = require('mongoose');
 
-const url = "http://localhost:5000"; // Update with your server URL
+const url = "https://blog-server-fucr.onrender.com"; // Update with your server URL
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
