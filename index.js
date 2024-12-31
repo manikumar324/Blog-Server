@@ -16,3 +16,7 @@ connectDB();
 const PORT = 5000
 
 app.listen(PORT, ()=> console.log(`Server Running Successfully on PORT :- ${PORT}`))
+
+app.get("/", async(req,res)=>{
+    res.send("Hello from Blog-Server")
+});
